@@ -1,0 +1,15 @@
+QUEUE IMPLEMENTATION USING A LINEAR ARRAY AND A CIRCULAR ARRAY
+
+A. LINEAR ARRAY
+	As we dequeue elements fron the array we increase the size by 1 
+to take care of the space left and maximize the total size usage.
+
+*****WITHIN THE CODE THERE ARE COMMENTS WHICH GUIDE WHY THE LINES ARE 
+     WRITTEN THAT WAY OR WHICH EXPLAINS THE CODE LINES*****
+
+B. CIRCULAR ARRAY
+	Here the size of the queue is being maintained kept fixed and the
+addition of new items is being done in a circular manner. Lets say we have 
+added items till we have reached the limit i.e size and there are empty spaces 
+behind due to the fact that we have dequeued items, we go back and fill those 
+spaces. Further explanation of the code is done in comments
